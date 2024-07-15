@@ -30,7 +30,7 @@ class CommissionTest {
             previousSum = previous,
             promotion = promotion)
 
-        assertEquals("Месячный лимит был превыше", result)
+        assertEquals("Месячный лимит был превышен", result)
     }
 
     @Test
